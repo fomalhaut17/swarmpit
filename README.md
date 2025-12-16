@@ -61,6 +61,8 @@ git clone https://github.com/swarmpit/swarmpit -b master
 docker stack deploy -c swarmpit/docker-compose.arm.yml swarmpit
 ```
 
+For setup on macOS (Apple Silicon), please refer to the [macOS setup guide](doc/mac-setup.md).
+
 [This stack](docker-compose.yml) is a composition of 4 services:
 
 * app - Swarmpit
